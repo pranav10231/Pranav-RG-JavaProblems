@@ -4,10 +4,10 @@ public class ArrayClassMain {
     public static void main(String[] args) {
         ArrayFunctions af = new ArrayFunctions();
 
-        int block[][] = {{34,56},{64,25},{1,2}};
+        int block[][] = {{34,56},{64,25},{1,2},{78,90}};
 
 
-        af.printAllElementsOfAnArray(block);
+        af.printFirstAndLastRowOfAnArray(block);
 
     }
 }
