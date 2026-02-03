@@ -29,4 +29,20 @@ public class ArrayFunctions {
 
     }
 
+    public static void printTheBorderElementsOfTheSquare(int[][] arr){
+        int[][] square = arr;
+
+        for(int i=0; i < square.length; i++){
+            for (int j=0; j<square.length; j++){
+                if(i == 1 && j==1){
+                    System.out.print(" ");
+                } else {
+                    System.out.print(square[i][j]);
+                }
+            }
+            System.out.println();
+        }
+
+    }
+
 }
