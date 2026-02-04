@@ -45,4 +45,20 @@ public class ArrayFunctions {
 
     }
 
+    public static void printTheDiagonalElementsOfTheSquare(int[][] arr){
+        int[][] square = arr;
+
+        for(int i=0; i < square.length; i++){
+            for (int j=0; j<square.length; j++){
+                if(i==j || i+j==square.length-1){
+                    System.out.print(square[i][j]);
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+
+    }
+
 }
