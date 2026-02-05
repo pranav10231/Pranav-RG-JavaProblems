@@ -7,7 +7,7 @@ public class ArrayClassMain {
         int block[][] = {{1,4,7}, {3,6,9}, {9,4,2}};
 
 
-        af.printTheDiagonalElementsOfTheSquare(block);
+        af.printTheMajorDiagonalElementsOfTheSquare(block);
 
     }
 }
