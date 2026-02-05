@@ -61,16 +61,17 @@ public class ArrayFunctions {
 
     }
 
-    public static void printTheMajorDiagonalElementsOfTheSquare(int[][] arr){
-        int[][] square = arr;
+    public static void printTheMajorDiagonalElementsOfTheSquare(int[][] arr1){
+        int[][] arr = arr1;
 
-        for(int i=0; i < square.length; i++){
-            for (int j=0; j<=i; j++){
-                System.out.print(square[i][j]);
+        for(int row = 0; row < arr.length; row++){
+            for (int col = 0; col < arr[0].length; col++){
+                if(row >= col ){
+                    System.out.print(arr[row][col]);
+                }
             }
             System.out.println();
         }
-
     }
 
 }
