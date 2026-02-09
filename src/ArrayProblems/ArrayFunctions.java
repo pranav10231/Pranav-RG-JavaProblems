@@ -74,4 +74,34 @@ public class ArrayFunctions {
         }
     }
 
+    public static void printAllTheElementsAboveTheSquare(int[][] square){
+        int[][] arr = square;
+
+        for(int row = 0; row < arr.length; row++){
+            for(int col = 0; col < arr[0].length; col++){
+                if (row <= col){
+                    System.out.print(arr[row][col]);
+                }
+
+            }
+            System.out.println();
+        }
+    }
+
+    public static void printAllTheEvenElementsOfAnArray(int[][] square){
+        int[][] arr = square;
+
+        for(int row=0; row<arr.length; row++){
+            for(int col =0; col< arr.length; col++){
+                if (arr[row][col] % 2 == 0){
+                    System.out.print(arr[row][col]+ " ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+
+    }
+
 }

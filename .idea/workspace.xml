@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8de39bc2-c45c-465b-960e-adfb3a84fc87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblems/ArrayClassMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblems/ArrayClassMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayProblems/ArrayFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblems/ArrayFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +138,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ArrayProblems/ArrayFunctions.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
